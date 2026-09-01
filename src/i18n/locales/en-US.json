@@ -1,13 +1,6 @@
 {
   "general": {
     "about": "About",
-    "alert": {
-      "development_notice": "The tracker is currently in active development and may have bugs or incomplete features.",
-      "encounter_issues": "If you encounter any issues, please ",
-      "missing_images_notice": "We are aware of missing camouflage images and incorrect requirements.",
-      "thank_you": "Thank you for your understanding, and happy grinding!",
-      "report_link_text": "report it in GitHub"
-    },
     "add_to": "Add to",
     "all": "All",
     "calling_cards": "Calling Card | Calling Cards",
@@ -66,7 +59,8 @@
   "locales": {
     "en-US": "English",
     "ar-SA": "العربية",
-    "pt-BR": "Português"
+    "pt-BR": "Português",
+    "fr-FR": "Français"
   },
   "pages": {
     "404": {
@@ -325,7 +319,8 @@
       "triple_kills": "{amount} triple kills",
       "vermin_eliminations": "{amount} Vermin eliminations",
       "vermin_kills": "{amount} Vermin kills",
-      "zombie_kills_while_affected_by_tactical": "{amount} Zombie kills while they are affected by your Tactical"
+      "zombie_kills_while_affected_by_tactical": "{amount} Zombie kills while they are affected by your Tactical",
+      "zombie_kills_after_using_field_upgrade": "Get {amount} Kills shortly after using a Field Upgrade"
     }
   },
   "calling_card_categories": {},

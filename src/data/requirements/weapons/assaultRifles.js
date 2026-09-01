@@ -3,13 +3,13 @@ import assaultRifles from '@/data/weapons/assaultRifles'
 const specialCamouflages = {
   'XM4': {
     multiplayer: {
-      Muddled: { amount: 30, type: 'kills_shortly_after_sprinting' },
-      Machina: { type: 'one_kill_without_taking_damage', times: 30 },
+      'Muddled': { amount: 30, type: 'kills_shortly_after_sprinting' },
+      'Machina': { type: 'one_kill_without_taking_damage', times: 30 },
     },
 
     zombies: {
-      Liquify: { amount: 300, type: 'kills_with_napalm_burst_equipped' },
-      Mainframe: { amount: 30, type: 'vermin_eliminations' },
+      'Liquify': { amount: 300, type: 'kills_with_napalm_burst_equipped' },
+      'Mainframe': { amount: 30, type: 'vermin_eliminations' },
     },
 
     warzone: {
@@ -20,13 +20,13 @@ const specialCamouflages = {
 
   'AK-74': {
     multiplayer: {
-      Whitecap: { amount: 50, type: 'kills_while_strategist_combat_specialty_is_active' },
-      Vengeance: { amount: 20, type: 'kills_with_underbarrel_launcher' },
+      'Whitecap': { amount: 50, type: 'kills_while_strategist_combat_specialty_is_active' },
+      'Vengeance': { amount: 20, type: 'kills_with_underbarrel_launcher' },
     },
 
     zombies: {
-      Chlorine: { amount: 5, type: 'critical_kills_rapidly', times: 15 },
-      Haunted: { amount: 300, type: 'kills_while_pack_a_punched' },
+      'Chlorine': { amount: 5, type: 'critical_kills_rapidly', times: 15 },
+      'Haunted': { amount: 300, type: 'kills_while_pack_a_punched' },
     },
 
     warzone: {
@@ -37,13 +37,13 @@ const specialCamouflages = {
 
   'AMES 85': {
     multiplayer: {
-      Heatstroke: { type: 'one_kill_without_taking_damage', times: 30 },
-      Burial: { amount: 2, type: 'kills_without_reloading', times: 10 },
+      'Heatstroke': { type: 'one_kill_without_taking_damage', times: 30 },
+      'Burial': { amount: 2, type: 'kills_without_reloading', times: 10 },
     },
 
     zombies: {
-      Hyperion: { amount: 300, type: 'kills_at_rare_rarity_or_higher' },
-      Graveyard: { amount: 300, type: 'kills_with_brain_rot_equipped' },
+      'Hyperion': { amount: 300, type: 'kills_at_rare_rarity_or_higher' },
+      'Graveyard': { amount: 300, type: 'kills_with_brain_rot_equipped' },
     },
 
     warzone: {
@@ -122,13 +122,13 @@ const specialCamouflages = {
 
   'Krig C': {
     multiplayer: {
-      Monochrome: { amount: 30, type: 'kills_shortly_after_sprinting' },
-      Dreadshade: { amount: 50, type: 'kills_while_moving' },
+      'Monochrome': { amount: 30, type: 'kills_shortly_after_sprinting' },
+      'Dreadshade': { amount: 50, type: 'kills_while_moving' },
     },
 
     zombies: {
       'Sunny Splash': { amount: 300, type: 'kills_with_cryo_freeze_equipped' },
-      Crowsbane: { amount: 100, type: 'zombie_kills_while_affected_by_tactical' },
+      'Crowsbane': { amount: 100, type: 'zombie_kills_while_affected_by_tactical' },
     },
 
     warzone: {
@@ -137,6 +137,73 @@ const specialCamouflages = {
     },
   },
 
+  'Cypher 091': {
+    multiplayer: {
+      'Scorching Slash': { type: 'one_kill_without_taking_damage', times: 30 },
+      'Rotmist': { amount: 2, type: 'kills_without_reloading', times: 10 },
+    },
+
+    zombies: {
+      'Glacial Blast': { amount: 100, type: 'zombie_kills_after_using_field_upgrade' },
+      'Entropy': { amount: 75, type: 'armored_zombie_kills' },
+    },
+
+    warzone: {
+      '?': null,
+      '??': null,
+    },
+  },
+
+  'Kilo 141': {
+    multiplayer: {
+      'Virusscape': { amount: 30, type: 'kills_shortly_after_sprinting' },
+      'Jade': { amount: 50, type: 'kills_with_suppressor' },
+    },
+
+    zombies: {
+      'Netspore': { amount: 5, type: 'critical_kills_rapidly', times: 15 },
+      'Jasper': { amount: 300, type: 'kills_with_cryo_freeze_equipped' },
+    },
+
+    warzone: {
+      '?': null,
+      '??': null,
+    },
+  },
+
+  'CR-56 AMAX': {
+    multiplayer: {
+      'Teal Tiger': { type: 'one_kill_without_taking_damage', times: 30 },
+      'Glade': { amount: 50, type: 'kills_while_enforcer_combat_specialty_is_active' },
+    },
+
+    zombies: {
+      'Yellow Tiger': { amount: 300, type: 'kills_at_rare_rarity_or_higher' },
+      'Everfrost': { amount: 100, type: 'zombie_kills_while_affected_by_tactical' },
+    },
+
+    warzone: {
+      '?': null,
+      '??': null,
+    },
+  },
+
+    'FFAR 1': {
+    multiplayer: {
+      'Strain': { type: 'one_kill_without_taking_damage', times: 30 },
+      'Ruche': { amount: 50, type: 'kills_while_strategist_combat_specialty_is_active' },
+    },
+
+    zombies: {
+      'Blight': { amount: 5, type: 'critical_kills_rapidly', times: 15 },
+      'Crease': { amount: 100, type: 'zombie_kills_while_affected_by_tactical' },
+    },
+
+    warzone: {
+      'Plague': { amount: 5, type: 'kills_in_a_single_match', times: 3 },
+      'Crimp': { amount: 5, type: 'kills_shortly_after_sprinting' },
+    },
+  },
 }
 
 export default {
@@ -188,24 +255,24 @@ export default {
 
       warzone: {
         // Military
-        'Granite': { amount: 5, type: 'eliminations' },
-        'Woodland': { amount: 10, type: 'eliminations' },
-        'Savanna': { amount: 15, type: 'eliminations' },
-        'Splinter': { amount: 20, type: 'eliminations' },
-        'Moss': { amount: 30, type: 'eliminations' },
-        'Shade': { amount: 40, type: 'eliminations' },
-        'Digital': { amount: 50, type: 'eliminations' },
-        'Tide': { amount: 75, type: 'eliminations' },
-        'Red Tiger': { amount: 100, type: 'eliminations' },
+        'Quartz': { amount: 5, type: 'eliminations' },
+        'Tundra': { amount: 10, type: 'eliminations' },
+        'Canyon': { amount: 15, type: 'eliminations' },
+        'Pine': { amount: 20, type: 'eliminations' },
+        'Undergrowth': { amount: 30, type: 'eliminations' },
+        'Snakeskin': { amount: 40, type: 'eliminations' },
+        'Siberia': { amount: 50, type: 'eliminations' },
+        'Smolder': { amount: 75, type: 'eliminations' },
+        'Blue Tiger': { amount: 100, type: 'eliminations' },
 
         // Special
         ...specialCamouflages[weapon]?.warzone,
 
         // Mastery
-        'Gold Tiger': null,
-        "King's Ransom": null,
-        'Catalyst': null,
-        'Abyss': null,
+        'Gold Tiger': { amount: 5, type: 'kills_while_most_wanted' },
+        "King's Ransom": { amount: 3, type: 'kills_without_dying', times: 5 },
+        'Catalyst': { amount: 5, type: 'kills_on_affected_enemies_with_tacticals' },
+        'Abyss': { amount: 5, type: 'kills_without_dying', times: 2 },
       },
     }
 

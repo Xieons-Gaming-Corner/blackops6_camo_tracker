@@ -1,13 +1,6 @@
 {
   "general": {
     "about": "حول",
-    "alert": {
-      "development_notice": "المتعقب قيد التطوير النشط حاليًا وقد يحتوي على أخطاء أو ميزات غير مكتملة.",
-      "encounter_issues": "إذا واجهت أي مشاكل، يرجى ",
-      "missing_images_notice": "نحن على علم بوجود صور تمويه مفقودة ومتطلبات غير صحيحة.",
-      "thank_you": "شكرًا لتفهمك، واستمتع بالتحديات!",
-      "report_link_text": "الإبلاغ عنها في GitHub"
-    },
     "add_to": "إضافة إلى",
     "all": "الكل",
     "calling_cards": "بطاقة الاتصال | بطاقات الاتصال",
@@ -65,7 +58,8 @@
   "locales": {
     "en-US": "English",
     "ar-SA": "العربية",
-    "pt-BR": "Português"
+    "pt-BR": "Português",
+    "fr-FR": "Français"
   },
   "pages": {
     "404": {
@@ -312,7 +306,8 @@
       "triple_kills": "{amount} من القتلات الثلاثية",
       "vermin_eliminations": "تم إقصاء {amount} من Vermin",
       "vermin_kills": "تم قتل {amount} من Vermin",
-      "zombie_kills_while_affected_by_tactical": "تم قتل {amount} من الزومبي أثناء تأثرهم بتكتيكك"
+      "zombie_kills_while_affected_by_tactical": "تم قتل {amount} من الزومبي أثناء تأثرهم بتكتيكك",
+      "zombie_kills_after_using_field_upgrade": "احصل على {amount} عملية قتل بعد وقت قصير من استخدام الترقية الميدانية"
     }
   },
   "calling_card_categories": {},

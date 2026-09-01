@@ -8,13 +8,9 @@
   <main>
     <div class="container" style="margin-bottom: 1.5rem">
       <AlertComponent>
-        {{ $t('general.alert.development_notice') }}
-        {{ $t('general.alert.encounter_issues') }}
-        
-        <a href="https://github.com/carlssonemil/nebula/issues/new?title=[Bug]%20" target="_blank"
-          >{{ $t('general.alert.report_link_text') }}</a>. 
-        
-        {{ $t('general.alert.missing_images_notice') }} {{ $t('general.alert.thank_you') }}
+        Looking for a tracker for Black Ops 7?
+        <a href="https://singularity-tracker.netlify.app/">You can find one here</a>! Good luck with
+        the grind! 🚀
       </AlertComponent>
     </div>
 
